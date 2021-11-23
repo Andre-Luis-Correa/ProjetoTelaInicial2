@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title> Radar Cultural</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script type="text/javascript" src="personalizado.js"></script>
+
+</head>
+<body>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<div class="hero">
+
+		<div class="hero2">
+			<nav>
+
+				<img src="img/logoBlog.png" class="logoBlog">
+				<h4> Radar<br> Cultural</h4>
+
+				<ul>
+					<!--
+					<li id="retanMusicas"><a href="">MÚSICAS</a></li>
+					<li id="retanFilmes"><a href="">FILMES</a></li>
+					<li id="retanSeries"><a href="">SÉRIES</a></li>
+					<li id="retanLivros"><a href="">LIVROS</a></li>
+					-->
+					<li><a href="" id="retanLivros">LIVROS</a></li>
+					<li><a href="" id="retanSeries">SÉRIES</a></li>
+
+					<li>
+						<a href="" id="retanFilmes">
+							FILMES
+						</a>
+					</li>
+					<li>
+						<a href="" id="retanMusicas">
+							MÚSICAS
+						</a>
+					</li>
+					
+
+				</ul>
+
+			</nav>
+
+			<!--
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100" src="img/1.jpg" alt="First slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="img/4.jpg" alt="Third slide">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		-->
+
+
+
+
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		  
+		  	<!-- o slide fica na mesma linha porque setamos o ROW
+		    	 e o NO-GUTTERS para remover qualquer espaço ao lado
+		     -->
+
+		    <div class="carousel-item active">
+		    
+		    	<!-- Itens do slide
+		        	para adicionar mais slides, 
+		            copie a div e troque a imagem 
+		         -->
+		    	<div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/1.jpg" alt="1" >
+		        </div>
+		        
+		        <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/2.jpg" alt="2">
+		        </div>
+		        
+		        <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/3.jpg" alt="3">
+		        </div>
+		        
+		        <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/4.jpg" alt="4">
+		        </div>
+
+
+		 
+		    </div><!-- FIM itens ativos -->
+		    
+		    
+		    <div class="carousel-item">
+		        <!-- Para adicionar mais slides, 
+		            lembre-se de inserir após a classe carousel-item 
+		        -->
+		      <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/5.jpg" alt="5">
+		      </div>
+		      
+		      <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/6.jpg" alt="6">
+		      </div>
+		      
+		      <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/7.jpg" alt="7">
+		      </div>
+		      
+		      <div class="col-3 float-left">    
+		      		<img class="d-block w-100" src="img/8.jpg" alt="8">
+		      </div>
+		    
+		  </div>
+		  
+		  <!-- controladores maior e menor -->
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		</div>
+
+
+
+
+
+
+		
+
+
+		</div>
+
+	</div>
+
+</body>
+</html>
